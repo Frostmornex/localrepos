@@ -36,3 +36,20 @@ class Header extends React.Component {
 }
 
 export default Header
+
+/* заготовка для прикрепления хэдера
+	position: fixed;
+	или
+	что бы меня крутилось вместе с прокруткой оно должно быть position fixed, но лучше это делать через скрипт функция scroll когда высотам меньше определённой, тогда задавать класс через classTogle
+меню*
+вот код делается через jquery только свои классы и велечины поставь
+// Фикс хедера при скроле
+      $(".head-line").removeClass("default");
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 38) {
+          $(".head-line").addClass("default").fadeIn('fast');
+        } else {
+          $(".head-line").removeClass("default").fadeIn('fast');
+        };
+      });
+*/
